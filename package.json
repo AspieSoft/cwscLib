@@ -1,0 +1,31 @@
+{
+  "name": "@aspiesoft/cwscLib",
+  "version": "1.0.0",
+  "description": "A compression library for strings, that recognizes common words, and creates references to them.",
+  "license": "MIT",
+  "author": "AspieSoft",
+  "main": "script.min.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aspiesoft/cwscLib.git"
+  },
+  "keywords": [
+    "compression",
+    "compress",
+    "string",
+    "reference",
+    "js",
+    "javascript",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "@aspiesoft/miniforge-js": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "pako": "^1.0.11"
+  }
+}

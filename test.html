@@ -1,0 +1,13 @@
+<script src="https://cdn.jsdelivr.net/gh/nodeca/pako@1.0.11/dist/pako.min.js" charset="utf-8"></script>
+<script src="script.js" charset="utf-8"></script>
+<script>
+
+  let test = 'the cdn.jsdelivr.net javascript engine built in year 2020 by aspiesoft';
+  console.log(test);
+  let comp = cwscLib.compress(test);
+  console.log(comp.toString());
+  let decomp = cwscLib.decompress(comp);
+  console.log(decomp);
+  console.log('success:', test === decomp);
+
+</script>

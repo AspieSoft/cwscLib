@@ -1,6 +1,6 @@
 {
   "name": "@aspiesoft/cwsclib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A compression library for strings, that recognizes common words, and creates references to them.",
   "license": "MIT",
   "author": "AspieSoft",
@@ -23,7 +23,7 @@
     "nodejs"
   ],
   "devDependencies": {
-    "@aspiesoft/miniforge-js": "^1.0.0"
+    "@aspiesoft/miniforge-js": "^1.1.0"
   },
   "optionalDependencies": {
     "pako": "^1.0.11"

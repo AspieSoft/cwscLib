@@ -1,16 +1,16 @@
 # Common Word String Compression Library
 
-![npm version](https://img.shields.io/npm/v/@aspiesoft/cwscLib)
+![npm version](https://img.shields.io/npm/v/@aspiesoft/cwsclib)
 ![GitHub top language](https://img.shields.io/github/languages/top/aspiesoft/cwscLib)
 ![GitHub license](https://img.shields.io/github/license/aspiesoft/cwscLib)
 
-![npm downloads](https://img.shields.io/npm/dw/@aspiesoft/cwscLib)
-![npm downloads](https://img.shields.io/npm/dm/@aspiesoft/cwscLib)
+![npm downloads](https://img.shields.io/npm/dw/@aspiesoft/cwsclib)
+![npm downloads](https://img.shields.io/npm/dm/@aspiesoft/cwsclib)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/aspiesoft/cwscLib)
 
 [![paypal](https://img.shields.io/badge/buy%20me%20a%20coffee-paypal-blue)](https://buymeacoffee.aspiesoft.com/)
 
-## Generate random numbers with more variety
+## A compression library for strings, that recognizes common words, and creates references to them
 
 A compression library for strings, that recognizes common words, and creates references to them.
 Because these word references are built within the cdn, they should get cached and reduce the amount of data sent to the client.
@@ -26,10 +26,10 @@ Usually decompression is faster than compression, as compression should make the
 
 ```shell script
 
-npm install @aspiesoft/cwscLib
+npm install @aspiesoft/cwsclib
 
 # or with no optional dependencies
-npm install @aspiesoft/cwscLib --no-optional
+npm install @aspiesoft/cwsclib --no-optional
 
 ```
 
@@ -51,7 +51,7 @@ npm install @aspiesoft/cwscLib --no-optional
 ```JavaScript
 
 // require only if using node.js
-const cwscLib = require('@aspiesoft/cwscLib');
+const cwscLib = require('@aspiesoft/cwsclib');
 
 let str = 'the cdn.jsdelivr.net javascript engine built in year 2020 by aspiesoft';
 

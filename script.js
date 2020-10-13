@@ -1,4 +1,4 @@
-/*! https://github.com/AspieSoft/cwscLib-js v1.0.0 | (c) aspiesoftweb@gmail.com */
+/*! https://github.com/AspieSoft/cwscLib-js v1.0.2 | (c) aspiesoftweb@gmail.com */
 ;var cwscLib = (function(){
 
   const standardComp = [];

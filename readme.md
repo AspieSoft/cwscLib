@@ -42,7 +42,7 @@ npm install @aspiesoft/cwsclib --no-optional
 
 
 <!-- Note: charset="utf-8" is necessary for the script to use utf-8 character references properly -->
-<script src="https://cdn.jsdelivr.net/gh/AspieSoft/cwscLib/script.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/AspieSoft/cwscLib@1/script.min.js" charset="utf-8"></script>
 
 ```
 

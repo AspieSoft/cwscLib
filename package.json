@@ -1,5 +1,5 @@
 {
-  "name": "@aspiesoft/cwscLib",
+  "name": "@aspiesoft/cwsclib",
   "version": "1.0.0",
   "description": "A compression library for strings, that recognizes common words, and creates references to them.",
   "license": "MIT",

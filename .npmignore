@@ -4,3 +4,6 @@ test.js
 test.html
 build.js
 script.js
+build-word-list.js
+word-lists.js
+word-list.json
